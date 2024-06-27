@@ -1,0 +1,32 @@
+.latestupdatecard{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+.latestupdatecard>span{
+    width: 40px;
+    height: 40px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5F4DF;
+}
+.latestupdatecard>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.latestupdatecard>div>strong{
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.latestupdatecard>div>p{
+    font-size: 18px;
+    font-weight: 500;
+}

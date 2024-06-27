@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1050px) {
+  .Cart-Main-Section {
+    flex-direction: column !important;
+  }
+
+  .Cart-Price-Section {
+    width: 100% !important;
+    margin-top: 50px !important;
+  }
+
+  .Cart-Products-Section {
+    width: 100% !important;
+  }
+  .Cart-Products-Section {
+    width: 100% !important;
+  }
+
+  .Cart-Items-List {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  .cart_empty{
+    height: 50vh;
+  }
+}
+.Cart-Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.Cart-SubSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+.Cart-Main-Section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.Cart-Products-Section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+  margin-right: 20px;
+ 
+}
+
+.Cart-Items-Heading {
+  width: 100%;
+  display: flex;
+  color: var(--black-600, #5d5d5d);
+  font-family: Cabin;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.Cart-Items-List {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  /* border: 1px solid #979797; */
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.Cart-Items-List::-webkit-scrollbar{
+  display: none;
+}
+
+.Cart-Card-Container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.cart_empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cart_empty > p {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.cart_empty > a {
+  text-decoration: none;
+  font-size: 22px;
+  background-color: #E4B92A;
+  color: #fff;
+  padding:8px 10px;
+  border-radius: 4px;
+
+}

@@ -1,0 +1,87 @@
+@media only screen and (max-width:1100px) and (min-width:800px){
+    .ordersuccesspage_middle{
+        width: 45% !important;
+    }
+}
+@media only screen and (max-width:799px) and (min-width:600px){
+    .ordersuccesspage_middle{
+        width: 65% !important;
+    }
+}
+@media only screen and (max-width:599px) {
+    .ordersuccesspage_middle{
+        width: 85% !important;
+    }
+}
+.ordersuccesspage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../../Assest/black-gray-digital-wallpaper-art-abstract-luxury-premium-background-generative-ai 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffb842;
+}
+.ordersuccesspage_top{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.ordersuccesspage_top>h3{
+    margin-bottom: 10px;
+}
+.ordersuccesspage_top>p{
+    margin-bottom: 10px;
+}
+.ordersuccesspage_middle{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.ordersuccesspage_middle>span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.ordersuccesspage_middle_grandtotal{
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+}
+.ordersuccesspage_middle>span>p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.ordersuccesspage_middle_grandtotal>p{
+    font-size: 22px !important;
+    font-weight: 500;
+    color: #fff !important;
+}
+.ordersuccesspage_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ordersuccesspage_bottom>a{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.ordersuccesspage_bottom>a>p{
+    margin-right: 8px;
+}

@@ -1,0 +1,20 @@
+.herobannercard_img{
+    height: 300px;
+    object-fit: contain;
+    filter: drop-shadow(2px 4px 6px black);
+}
+@media only screen and (max-width:600px){
+    .herobannercard_img{
+        height: 250px;
+    }
+}
+@media only screen and (max-width:1250px) and (min-width:1050){
+    .herobannercard_img{
+        height: 250px;
+    }
+}
+@media only screen and (max-width:1370px) and (min-width:1251px){
+    .herobannercard_img{
+      height: 260px !important;
+    }
+  }

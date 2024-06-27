@@ -1,0 +1,7 @@
+.table_input_tag{
+    height: 40px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    outline: none;
+    padding-left: 10px;
+}

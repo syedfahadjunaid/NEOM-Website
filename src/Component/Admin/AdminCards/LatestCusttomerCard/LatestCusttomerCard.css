@@ -1,0 +1,10 @@
+.latestcustomercard{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.latestcustomercard_para1{
+    margin-right: 10px;
+}

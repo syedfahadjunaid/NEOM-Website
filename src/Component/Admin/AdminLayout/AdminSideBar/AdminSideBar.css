@@ -1,0 +1,113 @@
+.adminsidebar {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-right: 1px solid lightgray;
+}
+.adminsidebar_logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+.adminsidebar_logo > img {
+  margin-bottom: 5px;
+  height: 50px;
+  object-fit: contain;
+}
+.adminsidebar_logo > p {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Unna";
+}
+.adminsidebar_menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10%;
+  padding-top: 20px;
+  overflow-y: scroll;
+}
+.adminsidebar_menu > span {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 7px;
+}
+.adminsidebar_menu > span>p{
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Unna';
+    display: flex;
+    align-items: center;
+}
+.adminsidebar_menu_span:hover{
+    background-color: #8ab0e2;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.adminsidebar_menu_icon{
+    margin-left: 10px;
+}
+.adminsidebar_menu_div{
+    margin-top: -5px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 20%;
+}
+.adminsidebar_menu_div>p{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+.adminsidebar_menu_div>span{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left:5% ;
+ 
+}
+.adminsidebar_menu_div>span>p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.adminSideActive{
+  background-color: #8ab0e2;
+}
+.adminSideActive1{
+  color: #8ab0e2;
+}
+.activearrow{
+  transform: rotate(-180deg);
+  transition: all 0.3s ease-in-out;
+}
+.notactivearrow{
+  transform: rotate(0deg);
+  transition: all 0.3s ease-in-out;
+}
+.showtab{
+  transition: height 1s ease-in-out;
+}

@@ -1,0 +1,50 @@
+.textarea_modal_discription {
+  width: 100%;
+  border: transparent;
+  outline: transparent;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.select_modal_option {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.modal_form_product_unit {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.modal_form_product_unit_weight {
+  width: 300px;
+  border: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+}
+.modal_form_product_unit_weight > span {
+  margin-top: 10px;
+  width: 80%;
+  border: 1px solid lightgrey;
+  border-radius: 1px;
+}
+.modal_form_product_unit_weight > span>select{
+    width: 100%;
+    border: transparent;
+    outline: transparent;
+    height: 30px;
+}
+.modal_form_product_unit_weight > span>input{
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    border: transparent;
+    outline: transparent;
+}

@@ -1,0 +1,113 @@
+@media only screen and (max-width: 600px) {
+  .Gallery-SubSection {
+    margin-bottom: 0px !important;
+  }
+  .Gallery-Image-Section,
+  .Gallery-Image-Section-Bottom {
+    flex-direction: row !important;
+    width: 100% !important;
+    height: max-content !important;
+    margin-bottom: 50px;
+    overflow-x: scroll;
+  }
+
+  .Gallery-Image {
+    margin-bottom: 50px !important;
+  }
+
+  .Gallery-Image > img {
+    width: 300px !important;
+  }
+  .mid > img {
+    width: 300px !important;
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1050px) {
+  .Gallery-SubSection {
+    margin-bottom: 0px !important;
+  }
+
+  .Gallery-Image-Section,
+  .Gallery-Image-Section-Bottom {
+    flex-direction: row !important;
+    width: 100% !important;
+    height: max-content !important;
+    margin-bottom: 50px;
+    overflow-x: scroll;
+  }
+
+  .Gallery-Image {
+    margin-bottom: 50px !important;
+  }
+
+  .Gallery-Image > img {
+    width: 300px !important;
+  }
+  .mid > img {
+    width: 850px !important;
+    height: 150px;
+  }
+}
+
+.Gallery-Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Gallery-SubSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-bottom: 50px;
+}
+
+.Gallery-Image-Section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+
+  margin-bottom: 50px;
+}
+
+.Gallery-Image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  height: 80%;
+  background: linear-gradient(to bottom, #d8d6e0, #d1ced9, #b3b0bb);
+  border-radius: 5px;
+}
+
+.Gallery-Image img {
+  border-radius: 5px;
+  width: 200px;
+}
+
+.mid > img {
+  width: 100%;
+}
+
+.Gallery-Image-Section-Bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.Gallery-Image-Section-Bottom .Gallery-Image {
+  background: radial-gradient(circle, #ffeed7, #ffdaa7);
+}
